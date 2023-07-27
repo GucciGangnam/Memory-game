@@ -10,12 +10,12 @@ import { SingleCard } from './components/singleCard';
 // card images 
 
 const cardImages = [ 
-{src : '/img/ISO_C++_Logo.svg.png', flipped: false}, 
-{src : '/img/CSS-logo.png', flipped: false},
-{src : '/img/HTML-logo.png', flipped: false},
-{src : '/img/JavaScript-logo.png', flipped: false},
-{src : '/img/JSX-logo.png', flipped: false},
-{src : '/img/Python-logo.png', flipped: false},
+{src : '/img/ISO_C++_Logo.svg.png', matched: false}, 
+{src : '/img/CSS-logo.png', matched: false},
+{src : '/img/HTML-logo.png', matched: false},
+{src : '/img/JavaScript-logo.png', matched: false},
+{src : '/img/JSX-logo.png', matched: false},
+{src : '/img/Python-logo.png', matched: false},
 ]
 
 function App() {
@@ -77,23 +77,25 @@ useEffect(() => {
 const runMatchChecker = () => { 
   
     if (firstChoice.src === secondChoice.src) { 
-      console.log('its a match'); 
-      //unflip cards
-      setfirstChoice(null)
-      setSecondChoice(null)
-
+      setCards(poopoo => { 
+        return poopoo.map(card =>{ 
+          if (card.src === firstChoice.src){ 
+            return {...card, matched: true}
+          } else { 
+            return card
+          }
+        })
+      })
       setTurns(turns + 1)
     } else { 
-      console.log('not a match, sorry');
-      setfirstChoice(null)
-      setSecondChoice(null)
+
       setTurns(turns + 1)
-      
-      //flip the cards back
     }
+
+    setfirstChoice(null)
+    setSecondChoice(null)
   
 }
-
 
 
   return (

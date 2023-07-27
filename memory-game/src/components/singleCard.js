@@ -9,6 +9,7 @@ export const SingleCard = ({card, MakeChoice}) => {
 const cardClickHandler = () => {
     MakeChoice(card)
     //flip the card
+
     
 
 
@@ -22,7 +23,7 @@ const cardClickHandler = () => {
                 id="frontOfCard"
                 className='CardFront' 
                 src={card.src} alt='Card Front' 
-                style={{width: '100%', height: '100%' }} />
+                style={{width: '100%', height: '100%'}} />
 
                 <img 
                 id="BackOfCard"
