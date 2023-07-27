@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Description of project 
+This project was a part of the Odin Course to design a memory game using React. 
+Its the first project in the course that uses React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## note 
+i started the React section of the course earlier last week.  However, i quickly noticed that the information in the Odin Project was not up to date with current react versions and rest assured confusion hit hard. 
 
-## Available Scripts
+I decided to take a step back and do some research on the current state of React and how to use it.  I used teh odin projects topic to start researching each topic on my own. 
+mainly states, some hooks, and components.
 
-In the project directory, you can run:
+however, during this time.  The odin project actually underwent a major update to their react section and the entire section was removed so I ahd to learn react without and direction as to what steps to take.  
 
-### `npm start`
+This wasnt easy for me, youtube is a rabbithole and its hard to know what i need to learn without a clear path.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I knew the project was to make a memory game so I started coding.  I quickly found myself out of depth and relied heavily on a tutorial from WebNinja. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I learned
+I learned a lot about React and how to use it.  I learned how to use states, how to use hooks, how to use components, and how to use props.  I also learned how to use the useEffect hook. 
 
-### `npm test`
+I also learnt a lot more about array methods and how to use more of them.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What I struggled with
+grasping the concept of React.. I felt liek a lot of the things i was doing coudl have been done with vanilla JS.  
+Also, leaning opn a tutorial to walk me through wasnt the best idea. I wasnt able to write my own psudocode and struggled with having to contain my code to the tutorial.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
