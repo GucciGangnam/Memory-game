@@ -23,3 +23,4 @@ I also learnt a lot more about array methods and how to use more of them.
 grasping the concept of React.. I felt liek a lot of the things i was doing coudl have been done with vanilla JS.  
 Also, leaning opn a tutorial to walk me through wasnt the best idea. I wasnt able to write my own psudocode and struggled with having to contain my code to the tutorial.
 
+Finish
